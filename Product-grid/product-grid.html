@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<style media="screen">
+  div.product-grid-container {
+      height: 600px;
+      width: 100%;
+      background-color: #CCC;
+      position: relative;
+    }
+    aside.product-grid-sidebar-left {
+      height: 600px;
+      width: 30%;
+      background-color: green;
+      float: left;
+    }
+    section.product-grid-table {
+      height: 600px;
+      width: 70%;
+      background-color: orange;
+      float: right;
+    }
+    table.product-table {
+      width: 100%;
+
+    }
+    table.product-table tr {
+      height: 100px;
+    }
+    table.product-table th {
+      border: solid thin;
+    }
+    .table-header {
+      background-color: lightblue;
+    }
+
+
+
+</style>
+<title>Product Grid</title>
+<link rel="stylesheet" href="../css/main.css">
+<body>
+  <header class="homepage-header">
+    <h1>Product Grid Page</h1>
+  </header>
+  <div class="product-grid-container">
+    <aside class="product-grid-sidebar-left">
+      <ul>
+        <li><a href="../about-us/about-us.html">About us</a></li>
+        <li><a href="../contact-us/contact-us.html">Contact us</a></li>
+        <li><a href="../index.html">Home Page</a></li>
+      </ul>
+    </aside>
+    <section class="product-grid-table">
+      <table class="product-table">
+        <tr>
+            <th class ="table-header">Product ID:</th>
+            <th class ="table-header">Location:</th>
+            <th class ="table-header">Price:</th>
+            <th class ="table-header">Available:</th>
+            <th class ="table-header"></th>
+        </tr>
+        <tr>
+          <th>22531</th>
+          <th>Fresno</th>
+          <th>$100</th>
+          <th>Available</th>
+          <th><button type="button" name="btn-buy">Buy Now</button></th>
+        </tr>
+        <tr>
+          <th>8695</th>
+          <th>Reedly</th>
+          <th>$600</th>
+          <th>Available</th>
+          <th><button type="button" name="btn-buy">Buy Now</button></th>
+        </tr>
+        <tr>
+          <th>5855</th>
+          <th>Clovis</th>
+          <th>$200</th>
+          <th>Available</th>
+          <th><button type="button" name="btn-buy">Buy Now</button></th>
+        </tr>
+        <tr>
+          <th>8561</th>
+          <th>Sanger</th>
+          <th>$800</th>
+          <th>Available</th>
+          <th><button type="button" name="btn-buy">Buy Now</button></th>
+        </tr>
+
+      </table>
+
+    </section>
+
+  </div>
+  <footer class ="homepage-footer">
+    <p>&copy Scott 2017</p>
+  </footer>
+</body>

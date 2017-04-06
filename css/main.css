@@ -1,0 +1,154 @@
+<style>
+section.login-body {
+  margin-top: 30px;
+}
+article.main-login-content {
+  width: 100%;
+  padding: 0;
+}
+div.login-form {
+  padding: 20px;
+  width: 300px;
+  height: 250px;
+  background-color: #CCC;
+  margin: 90px auto 0;
+
+}
+input.login-input {
+  width: 100%;
+  padding: 5px, 2px;
+  margin: 7px 0;
+}
+h1.login-title {
+  margin-bottom: 15px;
+}
+button.login-button {
+  padding: 5px 15px;
+  background-color: violet;
+  color: white;
+}
+
+header.homepage-header {
+height: 100px;
+width: 100%;
+background-color: pink;
+margin-top: -21px;
+}
+div.main-content {
+  height: 600px;
+  width: 100%;
+  background-color: #CCC;
+  position: relative;
+}
+aside.sidebar-left {
+  height: 600px;
+  width: 30%;
+  background-color: green;
+  float: left;
+}
+section.homepage-content {
+  height: 600px;
+  width: 50%;
+  background-color: yellow;
+  position: absolute;
+  float: right;
+  left: 30%;
+}
+section.homepage-content ul{
+
+}
+section.homepage-content li {
+  display: inline;
+  list-style: none;
+}
+section.homepage-content img {
+  width: 100px;
+  height: 100px;
+}
+div.sidebar-right {
+  width: 20%;
+  height: 600px;
+  background-color: lightblue;
+  float: right;
+}
+div.sidebar-right img {
+  width: 100px;
+  height: 100px;
+}
+
+footer.homepage-footer {
+  height: 100px;
+  width: 100%;
+  background-color: pink;
+  left: 0;
+  right: 0
+  bottom: 0;
+}
+
+div.aboutus-content {
+  height: 500px;
+  width: 100%;
+  background-color: #CCC;
+}
+div.aboutus-content img {
+  width: 100px;
+  height: 100px;
+}
+header.homepage-header img {
+  width: 50px;
+  height: 50px;
+}
+div.contactus-content {
+  height: 500px;
+  width: 100%;
+  background-color: #CCC;
+}
+header.homepage-header img {
+  width: 50px;
+  height: 50px;
+}
+div.contactus-content {
+  height: 500px;
+  width: 100%;
+  background-color: #CCC;
+}
+div.contactus-content li {
+  list-style: none;
+}
+.email-textarea {
+  margin-left: 30px;
+}
+div.product-grid-container {
+    height: 600px;
+    width: 100%;
+    background-color: #CCC;
+    position: relative;
+  }
+  aside.product-grid-sidebar-left {
+    height: 600px;
+    width: 30%;
+    background-color: green;
+    float: left;
+  }
+  section.product-grid-table {
+    height: 600px;
+    width: 70%;
+    background-color: orange;
+    float: right;
+  }
+  table.product-table {
+    width: 100%;
+
+  }
+  table.product-table tr {
+    height: 100px;
+  }
+  table.product-table th {
+    border: solid thin;
+  }
+  .table-header {
+    background-color: lightblue;
+  }
+
+
+</style>
