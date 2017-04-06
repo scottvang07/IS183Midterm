@@ -112,6 +112,12 @@ div.contactus-content {
   width: 100%;
   background-color: #CCC;
 }
+div.contactus-content li {
+  list-style: none;
+}
+.email-textarea {
+  margin-left: 30px;
+}
 div.product-grid-container {
     height: 600px;
     width: 100%;
